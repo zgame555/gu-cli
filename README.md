@@ -1,41 +1,41 @@
 
 
- GU CLI
+ # GU CLI
 
-❌ go get github.com/gofiber/fiber/v2
-✅ gu + fiber@v2
-
-
-❌ go clean
-✅ gu -
+- ❌ go get github.com/gofiber/fiber/v2
+- ✅ gu + fiber@v2
 
 
-❌ go clean github.com/gofiber/fiber/v2
-✅ gu - fiber@v2
+- ❌ go clean
+- ✅ gu -
 
 
-❌ go mod init [project]   
-✅ gu init [project]
+- ❌ go clean github.com/gofiber/fiber/v2
+- ✅ gu - fiber@v2
 
 
-❌ go mod tidy    
-✅ gu i
+- ❌ go mod init [project]   
+- ✅ gu init [project]
 
 
-❌ go run main.go
-✅ gu dev
+- ❌ go mod tidy    
+- ✅ gu i
 
 
-❌ go build main.go -o
-✅ gu bu -o
+- ❌ go run main.go
+- ✅ gu dev
 
 
-❌ go test
-✅ gu t
+- ❌ go build main.go -o
+- ✅ gu bu -o
 
 
-❌ go generate
-✅ gu g
+- ❌ go test
+- ✅ gu t
+
+
+- ❌ go generate
+- ✅ gu g
 
 
 
